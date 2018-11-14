@@ -34,7 +34,6 @@ h4,
 h5,
 h6 {
     @include sans-serif-font;
-    @import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,800');
 }
 
 p {
@@ -157,7 +156,7 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
-    font-family: Montserrat;
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');    font-family: 'Open Sans Condensed', sans-serif;
     background-position: center;
     background-image: url('../img/header.jpg');
     text-align: center;
@@ -197,8 +196,9 @@ header {
             }
             h2 {
                 font-weight: thin;
+                font-size: 50px;
                 font-family: 'Montserrat', sans-serif;
-                letter-spacing: 1.5px;
+                letter-spacing: 1.8px;
             }
         }
     }
