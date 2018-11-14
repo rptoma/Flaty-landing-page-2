@@ -164,7 +164,7 @@ header {
     .header-content {
         position: relative;
         text-align: center;
-        padding: 100px 15px 100px;
+        padding: 20px 100px 15px 100px;
         width: 100%;
         .header-content-inner {
             padding: 30px;
@@ -195,8 +195,8 @@ header {
                 }
             }
             h2 {
-                font-weight: thin;
-                font-size: 50px;
+                font-weight: 100;
+                font-size: 45px;
                 font-family: 'Open Sans Condensed', sans-serif;
                 letter-spacing: 1.8px;
             }
