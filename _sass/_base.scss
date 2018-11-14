@@ -157,7 +157,6 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
-    @import url('https://fonts.googleapis.com/css?family=Spicy+Rice');
     font-family: Montserrat;
     background-position: center;
     background-image: url('../img/header.jpg');
@@ -196,9 +195,10 @@ header {
                     margin-bottom: 50px;
                 }
             }
-            h3 {
+            h2 {
                 font-weight: thin;
                 font-family: 'Montserrat', sans-serif;
+                letter-spacing: 1.5px;
             }
         }
     }
