@@ -7,12 +7,17 @@
                 <p>Vrei să ne întrebi ceva sau ai o sugestie? Suntem aici să îţi răspundem!</p>
             </div>
             <center>
-        <div class="col-md-12 text-center">
-            <a href="mailto:{{ site.email }}">
-            <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p>{{ site.email }}</p>
-            </a>
-        </div>
+            <div class="col-md-12 text-center">
+                <!--<a href="mailto:{{ site.email }}">-->
+                <!--<i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>-->
+                    <!--<p>{{ site.email }} </p>-->
+                    <form action="https://formspree.io/appflaty@gmail.com" method="POST">
+                        <input type="text" name="name" placeholder="Numele...">
+                        <input type="email" name="_replyto" placeholder="Adresa de email...">
+                        <input type="submit" value="Trimite">
+                    </form>
+                <!--</a>-->
+            </div>
         </center>
 
     </div>
