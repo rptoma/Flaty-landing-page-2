@@ -2529,7 +2529,7 @@ output {
 }
 .email-form {
   display: block;
-  width: 500px;
+  width: 500pt;
   height: 34px;
   padding: 6px 12px;
   font-size: 14px;
