@@ -225,6 +225,16 @@ aside {
         left: 0%;
       }
     }
+    @media (max-device-width:480px) {
+        .group {
+          position: relative;
+          margin: 15px 0;
+        }
+        form {
+            margin: 5px auto;
+            width: 270px;
+        }
+    }
 }
 
 
