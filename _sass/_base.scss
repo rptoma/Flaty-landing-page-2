@@ -163,6 +163,10 @@ aside {
   margin: 45px 0;
 }
 
+form {
+  width: $width;
+  margin: 45px auto;
+  }
 // INPUTS // ============================== //
 textarea {
   resize: none;
