@@ -177,7 +177,7 @@ aside {
     input,
     textarea {
       background: none;
-      color: $muted-color;
+      color: #e65144;
       font-size: 18px;
       padding: 10px 10px 10px 5px;
       display: block;
@@ -192,7 +192,7 @@ aside {
       &:valid ~ label {
         top: -14px;
         font-size: 12px;
-        color: #e65144;
+        color: $hl-color;
       }
       &:focus ~ .bar:before {
         width: $width;
